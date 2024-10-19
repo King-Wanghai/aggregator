@@ -65,7 +65,7 @@ jobs:
           fi
 
       - name: Collect
-        run: python -u subscribe/collect.py --all --overwrite --skip -t v2ray
+        run: python -u subscribe/collect.py --all --overwrite --skip --targets v2ray
 
       - name: Timestamp
         run: date
